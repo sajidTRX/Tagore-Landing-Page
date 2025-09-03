@@ -1,0 +1,74 @@
+import React from 'react';
+import Image from 'next/image';
+
+const DesignPhilosophy: React.FC = () => {
+  return (
+    <section className="py-24 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">Where Craft Meets Purpose.</h2>
+          <p className="text-xl text-black max-w-3xl mx-auto">
+            Tagore is not just a device. It's a writer's instrument — precision-engineered to inspire clarity, flow, and focus.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          {/* Sliding Mechanism */}
+          <div className="text-center">
+            <div className="mb-6 aspect-square bg-white rounded-lg shadow-lg overflow-hidden relative group">
+              <Image
+                src="/images/sliding-mechanism.jpg"
+                alt="Tagore's unique sliding mechanism featuring an orange chassis and mechanical keyboard"
+                fill
+                className="object-cover transform transition-transform duration-700 group-hover:scale-105"
+                quality={95}
+                priority
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-3 text-black">Unique Sliding Mechanism</h3>
+            <p className="text-black">
+              The display glides seamlessly into the body, transforming from elegant slab to compact journal — engineered for both beauty and portability.
+            </p>
+          </div>
+
+          {/* Materials */}
+          <div className="text-center">
+            <div className="mb-6 aspect-square bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="w-full h-full bg-gray-200" />
+            </div>
+            <h3 className="text-2xl font-semibold mb-3 text-black">Premium Materials</h3>
+            <p className="text-black">
+              A sculpted retro-modern chassis, mechanical keys with tactile perfection, and a matte e-ink display that vanishes distractions.
+            </p>
+          </div>
+
+          {/* Timeless Aesthetic */}
+          <div className="text-center">
+            <div className="mb-6 aspect-square bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="w-full h-full bg-gray-200" />
+            </div>
+            <h3 className="text-2xl font-semibold mb-3 text-black">Timeless Aesthetic</h3>
+            <p className="text-black">
+              Minimal yet powerful. Like a fountain pen for the digital age.
+            </p>
+          </div>
+        </div>
+
+        {/* Macro Video Section */}
+        <div className="mt-24 relative aspect-video rounded-xl overflow-hidden">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/mechanism-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default DesignPhilosophy;

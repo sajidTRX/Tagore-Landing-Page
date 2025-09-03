@@ -1,0 +1,26 @@
+.backgroundImage {
+  /* transform: scale(1.1);
+  transform-origin: center;
+  transition: transform 0.3s ease-out; */
+}
+
+@media (max-width: 768px) {
+  .backgroundImage {
+    /* transform: scale(1.2);
+    background-position: center; */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .backgroundImage {
+    /* transform: scale(1.15);
+    background-position: 60% center; */
+  }
+}
+
+@media (min-width: 1025px) {
+  .backgroundImage {
+    /* transform: scale(1.1);
+    background-position: right bottom; */
+  }
+}

@@ -1,0 +1,19 @@
+.mode-card {
+  @apply bg-white rounded-2xl p-8 transition-all duration-300 hover:shadow-2xl;
+}
+
+.mode-feature {
+  @apply inline-flex items-center px-4 py-2 rounded-full bg-gray-50 text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-200;
+}
+
+.mode-heading {
+  @apply text-2xl font-bold mb-3;
+}
+
+.mode-description {
+  @apply text-gray-600 mb-6;
+}
+
+.select-button {
+  @apply mt-4 px-6 py-2 rounded-full border border-gray-200 hover:border-gray-400 transition-colors duration-200 text-gray-700 font-medium;
+}
