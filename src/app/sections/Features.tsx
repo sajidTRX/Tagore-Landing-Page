@@ -1,4 +1,3 @@
-import React from 'react';
 import { Monitor, Keyboard, BatteryCharging } from 'lucide-react';
 
 const Features: React.FC = () => {
@@ -23,7 +22,7 @@ const Features: React.FC = () => {
             <div className="ml-4">
               <h3 className="font-semibold text-slate-900">E-Ink Display</h3>
               <p className="mt-2 text-base text-gray-500">
-                A beautiful, paper-like display that\'s easy on the eyes, with no backlight or glare.
+                A beautiful, paper-like display that&rsquo;s easy on the eyes, with no backlight or glare.
               </p>
             </div>
           </div>
