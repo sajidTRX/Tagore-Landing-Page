@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const EmailCapture: React.FC = () => {
   const [email, setEmail] = useState('');

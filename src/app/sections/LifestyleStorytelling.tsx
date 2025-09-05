@@ -1,7 +1,6 @@
-'use client';
+"use client";
 
 import React from 'react';
-import ResponsiveMedia from '../components/ResponsiveMedia';
 
 const LifestyleStorytelling: React.FC = () => {
   return (

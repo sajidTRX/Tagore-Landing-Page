@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+
 import ResponsiveMedia from '../components/ResponsiveMedia';
 
 const ClosingSection: React.FC = () => {

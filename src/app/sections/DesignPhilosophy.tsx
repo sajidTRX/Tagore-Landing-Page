@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from 'react';
 
@@ -11,7 +11,7 @@ const DesignPhilosophy: React.FC = () => {
             Where Craft Meets Purpose
           </h2>
           <p className="mt-4 max-w-[65ch] text-[clamp(0.95rem,2.5vw,1.125rem)] leading-relaxed text-gray-700">
-            Tagore is not just a device. It's a writer's instrument — precision-engineered to inspire clarity, flow, and focus.
+            Tagore is not just a device. It\'s a writer\'s instrument — precision-engineered to inspire clarity, flow, and focus.
           </p>
         </div>
 

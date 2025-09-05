@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { Monitor, Keyboard, BatteryCharging } from "lucide-react";
+import { Monitor, Keyboard, BatteryCharging } from 'lucide-react';
 
 const Features: React.FC = () => {
   return (
@@ -13,8 +12,6 @@ const Features: React.FC = () => {
           <p className="mt-4 max-w-[65ch] text-[clamp(0.95rem,2.5vw,1.125rem)] leading-relaxed text-gray-700">
             A powerful writing environment designed for clarity, flow, and focus.
           </p>
-            
-          
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="flex transition transform hover:-translate-y-1">
@@ -26,7 +23,7 @@ const Features: React.FC = () => {
             <div className="ml-4">
               <h3 className="font-semibold text-slate-900">E-Ink Display</h3>
               <p className="mt-2 text-base text-gray-500">
-                A beautiful, paper-like display that's easy on the eyes, with no backlight or glare.
+                A beautiful, paper-like display that\'s easy on the eyes, with no backlight or glare.
               </p>
             </div>
           </div>

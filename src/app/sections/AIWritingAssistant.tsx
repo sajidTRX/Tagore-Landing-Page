@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AIWritingAssistant: React.FC = () => {
   return (
     <section id="ai" className="py-16 bg-black text-white">
