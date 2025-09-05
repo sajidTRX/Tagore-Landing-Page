@@ -64,12 +64,14 @@ img, video, canvas, svg {
   body {
     overflow-x: hidden;
   }
-  
-  /* Improve text readability on mobile */
-  p, h1, h2, h3, h4, h5, h6 {
-    word-wrap: break-word;
-    hyphens: auto;
-  }
+}
+
+/* Better mobile text */
+.no-hyphens { hyphens: none; overflow-wrap: normal; word-break: normal; }
+
+/* Balanced headings when supported (Chrome, Edge, Safari 17+) */
+@supports (text-wrap: balance) {
+  h1, h2, h3, .balance { text-wrap: balance; }
 }
 
 /* Touch-friendly interactions */

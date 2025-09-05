@@ -31,10 +31,10 @@ const HeroSection: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-6xl px-6 pt-16 pb-16 md:py-24 flex-grow flex flex-col justify-center">
-        <h1 className="text-[clamp(2rem,8vw,4.5rem)] leading-[0.95] font-bold">
+        <h1 className="font-extrabold tracking-tight text-[clamp(2rem,8vw,4.5rem)] leading-[0.95] balance no-hyphens">
           Write Without Distraction
         </h1>
-        <p className="mt-4 max-w-[65ch] text-[clamp(0.95rem,2.5vw,1.125rem)] opacity-80">
+        <p className="mt-4 max-w-[65ch] text-[clamp(0.95rem,2.5vw,1.125rem)] leading-relaxed opacity-80 no-hyphens">
           A premium writing device built for deep focus and flow
         </p>
         <form onSubmit={handleSubmit} className="mt-8 flex flex-col sm:flex-row gap-3 items-center max-w-xl">
