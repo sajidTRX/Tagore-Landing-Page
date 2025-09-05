@@ -1,14 +1,14 @@
-import HeroSection from './sections/HeroSection';
-import DesignPhilosophy from './sections/DesignPhilosophy';
-import SoftwareModes from './sections/SoftwareModes';
-import AIWritingAssistant from './sections/AIWritingAssistant';
-import LifestyleStorytelling from './sections/LifestyleStorytelling';
-import ClosingSection from './sections/ClosingSection';
-import EmailCapture from './sections/EmailCapture';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import Features from './sections/Features';
-import AICapabilities from './components/AICapabilities';
+import HeroSection from '@/app/sections/HeroSection';
+import DesignPhilosophy from '@/app/sections/DesignPhilosophy';
+import SoftwareModes from '@/app/sections/SoftwareModes';
+import AIWritingAssistant from '@/app/sections/AIWritingAssistant';
+import LifestyleStorytelling from '@/app/sections/LifestyleStorytelling';
+import ClosingSection from '@/app/sections/ClosingSection';
+import EmailCapture from '@/app/sections/EmailCapture';
+import NavBar from '@/app/components/NavBar';
+import Footer from '@/app/components/Footer';
+import Features from '@/app/sections/Features';
+import AICapabilities from '@/app/components/AICapabilities';
 
 export default function Home() {
   return (

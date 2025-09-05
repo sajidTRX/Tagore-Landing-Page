@@ -1,19 +1,19 @@
 const AIWritingAssistant: React.FC = () => {
   return (
-    <section id="ai" className="px-4 sm:px-6 md:px-8 py-12 bg-black text-white">
+    <section id="ai" className="px-4 sm:px-6 md:px-8 py-12 bg-black text-white min-h-screen">
       <div className="mx-auto max-w-[42rem] md:max-w-[56rem]">
-        <div className="text-center mb-12 sm:mb-16">
-          <h2 className="font-extrabold tracking-tight text-[clamp(2rem,8vw,4.5rem)] leading-[0.95] mb-4 balance no-hyphens">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="font-extrabold tracking-tight text-[clamp(1.75rem,6vw,4.5rem)] leading-[1.1] mb-4 balance no-hyphens">
             A Mind Beside Yours.
           </h2>
-          <p className="mt-4 max-w-[65ch] text-[clamp(0.95rem,2.5vw,1.125rem)] leading-relaxed text-gray-300 mx-auto no-hyphens">
+          <p className="mt-4 text-[clamp(0.875rem,2vw,1.125rem)] leading-relaxed text-gray-300 mx-auto no-hyphens max-w-prose">
             AI-powered writing that helps refine, inspire, and elevate your words — without stealing your voice.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start">
           {/* Interactive Demo */}
-          <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-gray-900 p-6 sm:p-8 order-2 lg:order-1 h-[400px] sm:h-[500px] md:h-[600px] lg:h-auto overflow-y-auto">
+          <div className="relative rounded-xl overflow-hidden bg-gray-900 p-4 sm:p-6 order-2 lg:order-1 max-h-[70vh] overflow-y-auto">
             <div className="h-full flex flex-col">
               <div className="flex-1 space-y-4">
                 {/* Animated text refinement demo */}
