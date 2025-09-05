@@ -1,10 +1,8 @@
 'use client';
 import React, { useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 
 const HeroSection: React.FC = () => {
-  const router = useRouter();
   const [email, setEmail] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
