@@ -25,14 +25,7 @@ const AIWritingAssistant: React.FC = () => {
                   <p className="text-gray-400 text-sm sm:text-base">Enhanced version:</p>
                   <p className="text-white mt-2 text-sm sm:text-base">The curious tabby prowled through the corner store&#39;s aisles.</p>
                 </div>
-                <div className="bg-gray-800 rounded p-3 sm:p-4">
-                  <p className="text-gray-400 text-sm sm:text-base">Original text:</p>
-                  <p className="text-white mt-2 text-sm sm:text-base">He opened the old diary and read the first line..</p>
-                </div>
-                <div className="bg-gray-800/50 rounded p-3 sm:p-4">
-                  <p className="text-gray-400 text-sm sm:text-base">Enhanced version:</p>
-                  <p className="text-white mt-2 text-sm sm:text-base">The words unlocked memories he thought were buried forever.</p>
-                </div>
+                
               </div>
             </div>
           </div>
