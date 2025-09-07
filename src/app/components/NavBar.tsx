@@ -6,10 +6,9 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Features', href: '#features' },
-    { name: 'About', href: '#about' },
-    { name: 'AI', href: '#ai' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Features', href: '#crafts' }, // Where Crafts meet purpose section
+    { name: 'Design', href: '#features' }, // Everything You Need to Stay Focused section
+    { name: 'AI', href: '#capabilities' }, // Advanced AI Capabilities section
   ];
 
   return (

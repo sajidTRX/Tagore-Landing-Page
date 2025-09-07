@@ -4,7 +4,7 @@
 
 export default function AICapabilities() {
   return (
-    <section className="relative overflow-hidden bg-neutral-950">
+    <section id="capabilities" className="relative overflow-hidden bg-neutral-950">
       {/* subtle background texture */}
       <div className="pointer-events-none absolute inset-0 opacity-40"
            style={{background:

@@ -2,7 +2,7 @@ import { Monitor, Keyboard, BatteryCharging } from 'lucide-react';
 
 const Features: React.FC = () => {
   return (
-    <section className="px-4 sm:px-6 md:px-8 py-12 bg-black text-white">
+    <section id="features" className="px-4 sm:px-6 md:px-8 py-12 bg-black text-white">
       <div className="mx-auto max-w-[42rem] md:max-w-[56rem]">
         <div className="text-center">
           <h2 className="text-[clamp(2rem,8vw,4.5rem)] leading-[0.95] font-bold text-white tracking-tight balance no-hyphens">
